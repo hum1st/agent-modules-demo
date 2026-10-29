@@ -1,23 +1,23 @@
 ---
 name: demo-skill
 description: >-
-  Agent Bay demo greeting. Use when the user invokes demo-skill, /demo-skill,
-  or asks for the Agent Bay demo hello. Reply with one localized greeting
-  sentence that mentions Agent Bay.
+  Agent Modules demo greeting. Use when the user invokes demo-skill, /demo-skill,
+  or asks for the Agent Modules demo hello. Reply with one localized greeting
+  sentence that mentions Agent Modules.
 license: MIT
 metadata:
   author: hum1st
-  source: agent-bay-demo
+  source: agent-modules-demo
 ---
 
-# demo-skill — localized hello from Agent Bay
+# demo-skill — localized hello from Agent Modules
 
 ## Goal
 
 Send **exactly one short greeting sentence** to the user:
 
 1. In the **language they are using** in this conversation (see detection below).
-2. Clearly stating that the message **comes from Agent Bay** (keep the product name **Agent Bay** in Latin letters).
+2. Clearly stating that the message **comes from Agent Modules** (keep the product name **Agent Modules** in Latin letters).
 
 Do not add extra paragraphs, bullets, or follow-up questions unless the user asked for more.
 
@@ -34,18 +34,18 @@ Pick **one** locale, in this order:
 
 | Locale | Sentence |
 |--------|----------|
-| `en` | Hello! This greeting comes from Agent Bay. |
-| `zh-CN` | 你好！这句问候来自 Agent Bay。 |
-| `hi` | नमस्ते! यह अभिवादन Agent Bay की ओर से है। |
-| `es` | ¡Hola! Este saludo proviene de Agent Bay. |
-| `fr` | Bonjour ! Cette salutation vient d'Agent Bay. |
-| `ar` | مرحبًا! هذه التحية من Agent Bay. |
-| `bn` | হ্যালো! এই অভিবাদন Agent Bay থেকে এসেছে। |
-| `pt` | Olá! Esta saudação vem do Agent Bay. |
-| `ru` | Здравствуйте! Это приветствие от Agent Bay. |
-| `ur` | سلام! یہ سلام Agent Bay کی طرف سے ہے۔ |
+| `en` | Hello! This greeting comes from Agent Modules. |
+| `zh-CN` | 你好！这句问候来自 Agent Modules。 |
+| `hi` | नमस्ते! यह अभिवादन Agent Modules की ओर से है। |
+| `es` | ¡Hola! Este saludo proviene de Agent Modules. |
+| `fr` | Bonjour ! Cette salutation vient d'Agent Modules. |
+| `ar` | مرحبًا! هذه التحية من Agent Modules. |
+| `bn` | হ্যালো! এই অভিবাদন Agent Modules থেকে এসেছে। |
+| `pt` | Olá! Esta saudação vem do Agent Modules. |
+| `ru` | Здравствуйте! Это приветствие от Agent Modules. |
+| `ur` | سلام! یہ سلام Agent Modules کی طرف سے ہے۔ |
 
-For a locale **not** in the table, write **one natural sentence** in that language with the same meaning (hello + from Agent Bay).
+For a locale **not** in the table, write **one natural sentence** in that language with the same meaning (hello + from Agent Modules).
 
 ## Output rules
 

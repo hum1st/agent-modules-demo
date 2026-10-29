@@ -1,6 +1,6 @@
-# Agent Bay Demo
+# Agent Modules Demo
 
-Minimal example repository for [Agent Bay](https://github.com/hum1st/agent-bay): one skill you can wire into a coding agent to verify Git-based skill loading.
+Minimal example repository for [Agent Modules](https://github.com/hum1st/agent-modules): one skill you can wire into a coding agent to verify Git-based skill loading.
 
 ## Contents
 
@@ -10,9 +10,9 @@ Minimal example repository for [Agent Bay](https://github.com/hum1st/agent-bay):
 
 ## Try the skill
 
-1. Point your agent at this repo (clone, submodule, or copy `skills/demo-skill` into your skills path).
-2. Invoke **`demo-skill`** (or ask for the Agent Bay demo greeting).
-3. The agent should reply with **one short greeting in your language** and say it comes from **Agent Bay**.
+1. Subscribe with **`/agent-modules-add`** (for example `hum1st/agent-modules-demo`), then run **`/agent-modules-sync`**.
+2. Invoke **`demo-skill`** (or ask for the Agent Modules demo greeting).
+3. The agent should reply with **one short greeting in your language** and say it comes from **Agent Modules**.
 
 ## License
 
